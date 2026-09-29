@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wildsafe — Hellen Wang</title>
+  <meta name="description" content="Wildsafe: streamlining wildlife incident reporting in Singapore." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="wrap">
+      <a href="index.html" class="logo">Hellen Wang</a>
+      <ul class="nav-links">
+        <li><a href="index.html#work">Work</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="wrap cs-hero">
+    <a href="index.html#work" class="back">← All work</a>
+    <h1>Wildsafe</h1>
+    <p class="lead">An app that streamlines wildlife incident response, with guided reporting that connects users to rescue services and a volunteer network.</p>
+    <dl class="meta">
+      <div><dt>Team</dt><dd>Charlize, Christy, Hellen, Huai En, Shi Han, Vibha</dd></div>
+      <div><dt>Timeline</dt><dd>Aug – Dec 2025</dd></div>
+      <div><dt>Type</dt><dd>End-to-end application</dd></div>
+      <div><dt>Prototype</dt><dd><a href="https://www.figma.com/proto/eNgyZNn46kLyXs9JO25HVK/IDP-Hi-Fi-Draft?node-id=2400-5030&p=f&t=vDPATU54DzMn2hcs-0&scaling=scale-down&content-scaling=fixed&page-id=2400%3A2747&starting-point-node-id=2400%3A5030" target="_blank">View in Figma ↗</a></dd></div>
+    </dl>
+    <figure class="cover"><img src="images/wildsafe/cover.png" alt="Wildsafe app overview" /></figure>
+  </header>
+
+  <main class="wrap">
+    <div class="cs">
+      <blockquote>"In 2024, Acres attended to 4,177 cases out of 15,203 calls it received. It rescued 3,537 animals."<cite>— The Straits Times, 2025</cite></blockquote>
+      <div class="ps">
+        <div><h4>Problem</h4><p>Human-wildlife encounters have surged, overwhelming the ACRES rescue hotline and exposing slow response times, fragmented processes, and limited public awareness that endanger both humans and wildlife.</p></div>
+        <div><h4>Solution</h4><p>An app with a guided reporting system that connects users to rescue services, plus a volunteer network that mobilises community support.</p></div>
+      </div>
+
+      <section class="cs-section reveal">
+        <p class="cs-label">Iteration 1 — Empathy</p>
+        <h2>Understanding the problem</h2>
+        <p>We interviewed 6 potential users about their experiences encountering wildlife.</p>
+        <h3>Breakdowns</h3>
+        <figure><img src="images/wildsafe/breakdowns.png" alt="Breakdowns from interviews" /></figure>
+
+        <h3>Persona</h3>
+        <div class="three">
+          <div class="box">
+            <h4>Jennifer Chang, 22</h4>
+            <img src="images/wildsafe/persona.png" alt="Persona Jennifer" />
+          </div>
+          <div class="box">
+            <h4>Goals</h4>
+            <ul><li>Find rescue services</li><li>Safety guidance</li><li>Rescue assurance</li><li>Status updates</li><li>Simple reporting</li></ul>
+          </div>
+          <div class="box">
+            <h4>Pain points</h4>
+            <ul><li>Unsure who to call</li><li>Limited safety knowledge</li><li>Uncertain while waiting</li><li>No rescue updates</li></ul>
+          </div>
+        </div>
+        <p style="margin-top:20px">Jennifer is a university student living near a nature reserve. Passionate about animal welfare, she wants to help injured wildlife but often doesn't know who to contact. She values quick, intuitive tools for reporting wildlife incidents.</p>
+      </section>
+
+      <section class="cs-section reveal">
+        <p class="cs-label">Iteration 1 — Ideation</p>
+        <h2>From breakdowns to features</h2>
+        <figure><img src="images/wildsafe/ideation.png" alt="Ideation board" /></figure>
+        <p>We generated four ideas for each problem, then refined them into <strong>three features</strong>:</p>
+        <figure><img src="images/wildsafe/features.png" alt="Three core features" /></figure>
+      </section>
+
+      <section class="cs-section reveal">
+        <p class="cs-label">Iteration 1 — Lo-fi</p>
+        <h2>Low-fidelity prototype</h2>
+        <p>We took inspiration from Grab, the myResponder app and the SGPokeMap website. Before prototyping, we created a navigation diagram.</p>
+        <figure><img src="images/wildsafe/nav-lofi.png" alt="Navigation diagram" /><figcaption>Navigation diagram</figcaption></figure>
+        <p>We did parallel prototyping before settling on the final lo-fi version.</p>
+        <div class="two">
+          <figure><img src="images/wildsafe/parallel-1.png" alt="Parallel prototype 1" /></figure>
+          <figure><img src="images/wildsafe/parallel-2.png" alt="Parallel prototype 2" /></figure>
+        </div>
+        <p>Here is our final lo-fi prototype, recorded with our user scenario.</p>
+        <figure><video src="images/wildsafe/lofi-scenario.mp4" controls playsinline preload="metadata"></video></figure>
+      </section>
+
+      <section class="cs-section reveal">
+        <p class="cs-label">Iteration 1 — Evaluate</p>
+        <h2>Heuristic evaluation</h2>
+        <p>We received 25 heuristic evaluations from classmates, identified the most common issues, and decided which fixes to implement. Three changes are shown below; other high-severity fixes were also made.</p>
+        <h3>1. Improved submission flow and user control</h3>
+        <ul><li>New "Save Draft" button</li><li>Mandatory field indicators</li><li>Confirmation pop-up</li><li>Improved location selection</li></ul>
+        <figure><img src="images/wildsafe/change-1.png" alt="Improved submission flow" /></figure>
+        <h3>2. Redesigned screen flow</h3>
+        <p>After submitting, users go straight to the "Potential Danger" page.</p>
+        <figure><img src="images/wildsafe/change-2.png" alt="Redesigned screen flow" /></figure>
+        <h3>3. Clearer "Potential Danger" page</h3>
+        <ul><li>Users are automatically taken to the page</li><li>Header changed from "More Information" to "Potential Danger"</li></ul>
+        <figure><img src="images/wildsafe/change-3.png" alt="Potential Danger page" /></figure>
+      </section>
+
+      <section class="cs-section reveal">
+        <p class="cs-label">Iteration 2 — Hi-fi</p>
+        <h2>High-fidelity prototype</h2>
+        <p>We first refined our navigation diagram to match the updated prototype.</p>
+        <figure><img src="images/wildsafe/nav-hifi.png" alt="Updated navigation diagram" /></figure>
+        <figure><img src="images/wildsafe/hifi.png" alt="Hi-fi prototype screens" /></figure>
+        <h3>Features</h3>
+        <div class="three">
+          <ul><li>Home page</li><li>Guidebook</li><li>Report function</li><li>Update function</li></ul>
+          <ul><li>Potential danger page</li><li>Social page</li><li>Report status page</li><li>Map</li></ul>
+          <ul><li>Your profile</li><li>Activity page</li><li>Chat function</li></ul>
+        </div>
+      </section>
+
+      <section class="cs-section reveal">
+        <p class="cs-label">Iteration 2 — Test</p>
+        <h2>A/B testing</h2>
+        <figure><img src="images/wildsafe/ab-versions.png" alt="Version A and B" /></figure>
+        <div class="two" style="align-items:center">
+          <figure><img src="images/wildsafe/ab-setup.png" alt="Maze test setup" /></figure>
+          <p>We ran a within-subjects test with 30 people, hosted on Maze.</p>
+        </div>
+        <h3>Statistical findings</h3>
+        <figure><img src="images/wildsafe/ab-results.png" alt="Statistical findings" /></figure>
+        <div class="callout"><strong>Result:</strong> Users performed better with Version A but didn't consciously prefer it — usability and stated preference don't always align.</div>
+
+        <h3>Pitch video</h3>
+        <p>We had one minute to show how the app is meant to work.</p>
+        <figure><video src="images/wildsafe/pitch.mp4" controls playsinline preload="metadata"></video></figure>
+      </section>
+
+      <section class="cs-section reveal">
+        <p class="cs-label">Reflect</p>
+        <h2>Reflection</h2>
+        <p>This was my first design thinking project, and I learned a lot about the process behind creating an app. Things we take for granted take a lot of effort to build. After this project, my view of app-based solutions broadened, and I started thinking more about the work it takes to build an app that solves a real problem.</p>
+        <p>And here's a picture of me and my group mates :)</p>
+        <figure><img src="images/wildsafe/team.png" alt="The Wildsafe team" /></figure>
+      </section>
+
+      <a href="hairsay.html" class="next">
+        <div><span>Next project</span><strong>Hairsay</strong></div>
+        <span style="font-size:28px">→</span>
+      </a>
+    </div>
+  </main>
+
+  <footer id="contact">
+    <div class="wrap">
+      <h2>Let's work together.</h2>
+      <div class="links">
+        <a href="mailto:hellen.2024@computing.smu.edu.sg">Email</a>
+        <a href="https://www.linkedin.com/in/wanghellen/" target="_blank">LinkedIn</a>
+        <a href="https://drive.google.com/file/d/1pF7Rs0oGjBkpFHDTkg84cxJd0Bi0h14N/view?usp=sharing" target="_blank">Resume</a>
+      </div>
+      <p class="copy">© <span class="year">2026</span> Hellen Wang. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

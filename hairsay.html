@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hairsay — Hellen Wang</title>
+  <meta name="description" content="Hairsay: an app that checks hair products against your hair profile and routine." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="wrap">
+      <a href="index.html" class="logo">Hellen Wang</a>
+      <ul class="nav-links">
+        <li><a href="index.html#work">Work</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="wrap cs-hero">
+    <a href="index.html#work" class="back">← All work</a>
+    <h1>Hairsay</h1>
+    <p class="lead">An app that checks products against your real hair profile and routine, and re-checks both as your hair changes.</p>
+    <dl class="meta">
+      <div><dt>Role</dt><dd>Solo designer</dd></div>
+      <div><dt>Timeline</dt><dd>May – Jul 2026</dd></div>
+      <div><dt>Type</dt><dd>End-to-end application</dd></div>
+      <div><dt>Prototype</dt><dd><a href="https://www.figma.com/proto/pI04cfj1ZWbSQ8Te8dIvmx/hairsay?page-id=212%3A1509&node-id=212-2348&viewport=829%2C249%2C0.29&t=DZSjDZkcLgrdPzj8-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=212%3A2348" target="_blank">View in Figma ↗</a></dd></div>
+    </dl>
+    <figure class="cover"><img src="images/hairsay/cover.png" alt="Hairsay app overview" /></figure>
+    <div class="ps">
+      <div><h4>Problem</h4><p>People can't tell if a product is right for their hair, can't verify trending claims, and don't know their own hair well enough to make informed decisions.</p></div>
+      <div><h4>Solution</h4><p>An app that checks products against a real hair profile and an existing routine, and re-checks both as hair changes over time.</p></div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="cs">
+
+      <section class="cs-section reveal">
+        <p class="cs-label">01 — Research</p>
+        <h2>User research</h2>
+        <p>After interviewing 7 people across ages 18–55 and different genders, one thing was clear: everyone's hair was different, but the frustrations were the same.</p>
+        <figure><img src="images/hairsay/research.png" alt="User research findings" /></figure>
+
+        <h3>Persona</h3>
+        <div class="three">
+          <div class="box">
+            <h4>Jordan, 24</h4>
+            <img src="images/hairsay/persona.png" alt="Persona Jordan" />
+          </div>
+          <div class="box">
+            <h4>Goals</h4>
+            <ul>
+              <li>Find products that actually match their new hair</li>
+              <li>Stop the breakage cycle</li>
+              <li>Feel confident again</li>
+            </ul>
+          </div>
+          <div class="box">
+            <h4>Frustrations</h4>
+            <ul>
+              <li>Vague labels</li>
+              <li>Bad past product experience</li>
+              <li>Online advice is either too generic or too advanced</li>
+            </ul>
+          </div>
+        </div>
+        <blockquote>"I don't know what my hair actually needs. I just know it's not doing what it used to."<cite>— Jordan</cite></blockquote>
+        <p>Jordan has recently permed and dyed his hair for the first time, and it behaves like nothing before. Chronically online and active on social media, he wants to find the right products to look put-together again.</p>
+      </section>
+
+      <section class="cs-section reveal">
+        <p class="cs-label">02 — Define</p>
+        <h2>Ideation</h2>
+        <p>With the frustrations and persona in hand, I designed a feature to solve each problem.</p>
+        <figure><img src="images/hairsay/ideation.png" alt="Ideation: features mapped to problems" /></figure>
+
+        <h3>Site map</h3>
+        <p>Before prototyping, I mapped out the site hierarchy to keep navigation clear as more features were added.</p>
+        <figure><img src="images/hairsay/sitemap.png" alt="Hairsay site map" /></figure>
+
+        <h3>User flows</h3>
+        <p>With the structure in place, I sketched the three flows users would go through: first opening the app, checking a product, and adding products to their routine.</p>
+        <figure><img src="images/hairsay/flow-onboarding.png" alt="Onboarding flow" /><figcaption>Onboarding</figcaption></figure>
+        <figure><img src="images/hairsay/flow-check-product.png" alt="Checking a product flow" /><figcaption>Checking a product</figcaption></figure>
+        <figure><img src="images/hairsay/flow-add-routine.png" alt="Adding a product to routine flow" /><figcaption>Adding a product to routine</figcaption></figure>
+      </section>
+
+      <section class="cs-section reveal">
+        <p class="cs-label">03 — Design</p>
+        <h2>Prototype</h2>
+        <h3>Storyboarding</h3>
+        <p>I storyboarded two paths before touching a screen.</p>
+        <p><strong>Easy path:</strong> Jordan gets a clear read on his post-perm hair, checks a trending product against it, and buys with confidence.</p>
+        <figure><img src="images/hairsay/storyboard-easy.png" alt="Easy path storyboard" /></figure>
+        <p><strong>Hard path:</strong> Jordan's routine is fine until humid weather and a touch-up perm change his scalp condition. Products that worked together now conflict. He redoes his assessment, catches the flag, and drops the one product causing it.</p>
+        <figure><img src="images/hairsay/storyboard-hard.png" alt="Hard path storyboard" /></figure>
+
+        <h3>Lo-fi prototype</h3>
+        <figure><img src="images/hairsay/lofi.jpg" alt="Lo-fi sketches" /></figure>
+        <h3>Mid-fi prototype</h3>
+        <figure><img src="images/hairsay/midfi.png" alt="Mid-fi wireframes" /></figure>
+        <h3>Hi-fi prototype</h3>
+        <figure><img src="images/hairsay/hifi.png" alt="Hi-fi screens" /></figure>
+        <div class="two">
+          <figure><video src="images/hairsay/hifi-profile.mp4" autoplay loop muted playsinline aria-label="Getting a hair profile"></video><figcaption>Getting a hair profile</figcaption></figure>
+          <figure><video src="images/hairsay/hifi-community.mp4" autoplay loop muted playsinline aria-label="Sharing in community"></video><figcaption>Sharing in community</figcaption></figure>
+        </div>
+      </section>
+
+      <section class="cs-section reveal">
+        <p class="cs-label">04 — Test</p>
+        <h2>Usability testing</h2>
+        <p>I tested with 4 participants on the same tasks to see how they really moved through the app and find any friction.</p>
+        <div class="two">
+          <figure><video src="images/hairsay/test-add.mp4" autoplay loop muted playsinline aria-label="Task: add product to routine"></video><figcaption>Task 1: Add "Organic Curl Cream" to routine</figcaption></figure>
+          <figure><video src="images/hairsay/test-remove.mp4" autoplay loop muted playsinline aria-label="Task: remove conflicting products"></video><figcaption>Task 2: Remove conflicting products</figcaption></figure>
+        </div>
+        <h3>Insights</h3>
+        <ul>
+          <li>All users added a product without any hesitation.</li>
+          <li>Most users missed the swipe gesture entirely when trying to remove a flagged product.</li>
+        </ul>
+        <h3>Future improvements</h3>
+        <ul>
+          <li>Replace the swipe gesture with a tap that opens the product, with a clear delete option.</li>
+          <li>Add a visible delete button on the product card, so removal doesn't depend on a hidden gesture.</li>
+          <li>Test the improved design with a larger group to confirm the pattern holds beyond 4 participants.</li>
+        </ul>
+        <figure><img src="images/hairsay/testing-photo.jpg" alt="Usability testing session" /></figure>
+      </section>
+
+      <section class="cs-section reveal">
+        <p class="cs-label">05 — Reflect</p>
+        <h2>Reflection</h2>
+        <p>This was my first full project done alone, so there were challenges along the way: finding problems worth solving, reaching potential users to learn their pain points, and designing an app with easy navigation and good design principles. I made mistakes, but I finished the project. Compared to designing with a team, it taught me self-discipline and to be ready to explore on my own.</p>
+        <p>There were moments I wasn't sure I was on the right track, like whether a breakdown was worth solving or a flow made sense, with no team to bounce ideas off. Going through the whole process alone, from the first interview to the last usability test, taught me to trust my own judgment. I look forward to the next one!</p>
+      </section>
+
+      <a href="wildsafe.html" class="next">
+        <div><span>Next project</span><strong>Wildsafe</strong></div>
+        <span style="font-size:28px">→</span>
+      </a>
+    </div>
+  </main>
+
+  <footer id="contact">
+    <div class="wrap">
+      <h2>Let's work together.</h2>
+      <div class="links">
+        <a href="mailto:hellen.2024@computing.smu.edu.sg">Email</a>
+        <a href="https://www.linkedin.com/in/wanghellen/" target="_blank">LinkedIn</a>
+        <a href="https://drive.google.com/file/d/1pF7Rs0oGjBkpFHDTkg84cxJd0Bi0h14N/view?usp=sharing" target="_blank">Resume</a>
+      </div>
+      <p class="copy">© <span class="year">2026</span> Hellen Wang. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
