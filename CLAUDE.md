@@ -27,5 +27,5 @@ Static site (plain HTML/CSS/JS, no build step), migrated from Notion, to be host
 ## To do
 1. ~~Download images from Notion~~ Done. Drawings are `.jpg`; Hairsay GIFs were converted to looping `.mp4` videos; the lo-fi video was compressed to 720p. Chateraise cover is still missing (page not public).
 2. ~~Fill in email and LinkedIn~~ Done.
-3. Repo is `github.com/Hellenwangg/hellenwangg` (pushed). Turn on GitHub Pages (branch `main`, root). Optional: rename repo to `Hellenwangg.github.io` for the shorter URL, then `git remote set-url origin https://github.com/Hellenwangg/Hellenwangg.github.io.git`.
+3. Repo is `github.com/Hellenwangg/Hellenwangg.github.io` (pushed). Site: https://hellenwangg.github.io (GitHub Pages from `main`, root).
 4. Later: build `chateraise.html` from the `hairsay.html` template once the content is ready.
