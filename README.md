@@ -27,7 +27,6 @@ Any missing image shows as a dashed box saying which file to add, so you can che
 | File | Notion image |
 |---|---|
 | cover.png | Top banner image |
-| thumb.png | Home page square (phones cropped from cover.png; a transparent-background export from Figma looks best) |
 | research.png | User Research screenshot |
 | persona.png | Jordan's photo |
 | ideation.png | Ideation screenshot |
@@ -50,7 +49,6 @@ Any missing image shows as a dashed box saying which file to add, so you can che
 | File | Notion image |
 |---|---|
 | cover.png | Top banner image |
-| thumb.png | Home page square (phones cropped from cover.png; a transparent-background export from Figma looks best) |
 | breakdowns.png | Breakdowns |
 | persona.png | Jennifer's photo |
 | ideation.png | Ideation board |
