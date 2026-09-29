@@ -3,7 +3,8 @@
 Static site (plain HTML/CSS/JS, no build step), migrated from Notion, to be hosted on GitHub Pages.
 
 ## Files
-- `index.html` — home (hero, work grid, about, contact)
+- `index.html` — home (hero, featured work rows, contact)
+- `about.html` — about me (photo, bio, skills)
 - `hairsay.html`, `wildsafe.html` — case studies
 - `drawings.html` — gallery
 - `style.css` — all styles; colour tokens in `:root`, dark mode via `prefers-color-scheme`
@@ -12,7 +13,7 @@ Static site (plain HTML/CSS/JS, no build step), migrated from Notion, to be host
 
 ## Rules
 - Keep it plain HTML/CSS/JS. No frameworks or build tools unless Hellen asks.
-- Nav and footer are copied in every page. When changing one, change all four.
+- Nav is copied in all five pages; the footer is in every page except `about.html` (its Contact link goes to `index.html#contact`). When changing one, change them all.
 - Images live in `images/<project>/` with the names in README.md. Missing images show a dashed "Add file: ..." box.
 - Hellen prefers concise answers and simple language.
 
